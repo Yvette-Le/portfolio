@@ -1,0 +1,52 @@
+.visuallyhidden{
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    }
+
+    /* font-family: 'Poppins', sans-serif;
+
+    font-family: 'Jost', sans-serif; */
+
+body{
+    font-family: 'Poppins', sans-serif
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Jost', sans-serif;
+}
+
+.container{
+    padding:2rem;
+    margin:0 auto;
+}
+
+.nav-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content img{
+    max-width:4rem;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+}
+
+nav li{
+    margin:0 0.5rem;
+}
+nav li>a{
+    color:black;
+    padding:1rem;
+    text-decoration: none;
+}
