@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yvette Le Designs</title>
+    <title>Yvette Le Designs - Fanta</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet"
@@ -120,7 +120,7 @@
                             </g>
                         </svg></span>
                 </a>
-                <a href="" class="menu-btn"><svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.85 26.31">
+                <a href="#" class="menu-btn"><svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.85 26.31">
                         <path d="M30.99,4H7.86c-1.1,0-2-.9-2-2S6.76,0,7.86,0H30.99c1.1,0,2,.9,2,2s-.9,2-2,2Z" />
                         <path d="M36.85,15.16H2c-1.1,0-2-.9-2-2s.9-2,2-2H36.85c1.1,0,2,.9,2,2s-.9,2-2,2Z" />
                         <path d="M30.99,26.31H7.86c-1.1,0-2-.9-2-2s.9-2,2-2H30.99c1.1,0,2,.9,2,2s-.9,2-2,2Z" />
@@ -136,165 +136,39 @@
         </div>
     </header>
     <main>
-        <section class="banner">
-            <div class="container intro">
-                <h2>Hello. I'm Yvette, a designer specializing in UX/UI and graphics.</h2>
-                <a href="#">About Me</a>
-            </div>
-        </section>
-        <section  id="about" class="about">
+        <h3 class="project-title">Voyager Branding</h3>
+        <div class="project">
             <div class="container">
-                <div class="profile-info">
-                    <img src="img/yvette-profile.jpg" alt="Photo of Yvette">
+                <img src="img/voyager-homescreen1.png" alt="Voyager App Screen">
+                <div class="project-info-1">
+                    <h4>About the Project</h4>
                     <div>
-                        <h3>About Me</h3>
-                        <p>Hi there! My name is Yvette and I'm a UX/UI and graphic designer from Edmonton, AB. I have
-                            always been a
-                            creative person since I was young, and although I studied business, I decided to pursue a
-                            career in
-                            design. My journey started at NAIT in the Digital Media and IT program, and I have learned
-                            various
-                            skills including HTML, CSS, JavaScript, Adobe Illustrator, and Photoshop. I made this
-                            website to
-                            showcase some of the work that I have done, so please feel free to take a look around! </p>
-                    </div>
-                </div>
-            </div>
-            <div class="skills">
-                <div class="container">
-                    <h4>Skills</h4>
-                    <div class="skill-bar">
-                        <p>HTML & CSS</p>
-                        <div class="html-css">
-                            <span class="bar-filled"></span>
-                            <span class="bar-empty"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <p>Javascript</p>
-                        <div class="javascript">
-                            <span class="bar-filled"></span>
-                            <span class="bar-empty"></span>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <p>Adobe Creative Suite</p>
-                        <div class="adobe">
-                            <span class="bar-filled"></span>
-                            <span class="bar-empty"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="work" class="view-work">
-            <h3>View My Work</h3>
-            <div class="container">
-                <div class="filter-buttons">
-                    <button data-filter="*">All</button>
-                    <button data-filter=".package">Package Design</button>
-                    <button data-filter=".graphics">Graphic Design</button>
-                    <button data-filter=".web">Web Design</button>
-                </div>
-                <div class="grid work-images">
-                    <div class="grid-item package">
-                        <h4>Fanta Rebrand</h4>
-                        <a href="fanta.html"><img src="img/fanta-package.png" alt="Fanta Packaging Mockup"></a>
-                    </div>
-                    <div class="grid-item package">
-                        <h4>Woodland Package Design</h4>
-                        <a href="woodland.html"><img src="img/woodland-package.jpg" alt="Woodland Packaging Mockup"></a>
-                    </div>
-                    <div class="grid-item web">
-                        <h4>Issho Dashboard</h4>
-                        <a href=""><img src="img/gallery-dashboard.jpg" alt="Issho Dashboard Mockup"></a>
-                    </div>
-                    <div class="grid-item web">
-                        <h4>Rock Auto Shopping Cart</h4>
-                        <a href=""><img src="img/gallery-shopping-cart.jpg" alt="Rock Auto Shopping Cart Mockup"></a>
-                    </div>
-                    <div class="grid-item graphics">
-                        <h4>Voyager Branding</h4>
-                        <a href="voyager.html"><img src="img/voyager-logo.jpg" alt="Voyager Logo Mockup"></a>
-                    </div>
-                    <div class="grid-item graphics">
-                        <h4>The Aesthetic Nurse Logo</h4>
-                        <a href=""><img src="img/an-business-card.jpg" alt="Aesthetic Nurse Logo Mockup"></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="contact">
-            <h3>Let's Talk</h3>
-            <div class="container">
-                <p>If you have any questions or would like more information on my work, get in contact with me!</p>
-                <div class="contact-form">
-                    <form action="" method="post">
-                        <div>
-                            <label for="name">Name*</label>
-                            <input type="text" id="name" name="name" pattern=[A-Z\sa-z]{4,20} required>
-                        </div>
-                        <div>
-                            <label for="email">Email*</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div>
-                            <label for="msg">Message*</label>
-                            <textarea id="message" name="message" minlength="15" required></textarea>
-                        </div>
-                        <input class="btn" type="submit" name="submit" value="Send Message">
-                    </form>
-                </div>
-                <div class="social-media">
-                    <ul>
-                        <li>
-                            <div>
-                                <a href="https://www.linkedin.com/in/yvette-le/"><svg version="1.1"
-                                        xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                                        <title>linkedin</title>
-                                        <path
-                                            d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 26h-4v-14h4v14zM10 10c-1.106 0-2-0.894-2-2s0.894-2 2-2c1.106 0 2 0.894 2 2s-0.894 2-2 2zM26 26h-4v-8c0-1.106-0.894-2-2-2s-2 0.894-2 2v8h-4v-14h4v2.481c0.825-1.131 2.087-2.481 3.5-2.481 2.488 0 4.5 2.238 4.5 5v9z">
-                                        </path>
-                                    </svg></a>
-                                <p>yvette-le</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="#"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                                        viewBox="0 0 32 32">
-                                        <title>instagram</title>
-                                        <path
-                                            d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z">
-                                        </path>
-                                        <path
-                                            d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z">
-                                        </path>
-                                        <path
-                                            d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z">
-                                        </path>
-                                    </svg></a>
-                                <p>yvette.le</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="mailto:yvette@yvettele.com"><svg version="1.1"
-                                        xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                                        <title>email</title>
-                                        <path
-                                            d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM8 8h16c0.286 0 0.563 0.061 0.817 0.177l-8.817 10.286-8.817-10.287c0.254-0.116 0.531-0.177 0.817-0.177zM6 22v-12c0-0.042 0.002-0.084 0.004-0.125l5.864 6.842-5.8 5.8c-0.045-0.167-0.069-0.34-0.069-0.517zM24 24h-16c-0.177 0-0.35-0.024-0.517-0.069l5.691-5.691 2.826 3.297 2.826-3.297 5.691 5.691c-0.167 0.045-0.34 0.069-0.517 0.069zM26 22c0 0.177-0.024 0.35-0.069 0.517l-5.8-5.8 5.865-6.842c0.003 0.041 0.004 0.083 0.004 0.125v12z">
-                                        </path>
-                                    </svg></a>
-                                <p>yvette@yvettele.com</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
+                        <p><b>Role: UX/UI Designer</b></p>
+                        <p><b>Tools Used: Adobe Illustrator, Adobe XD</b></p>
+                        <p>Voyager is a an imaginary app created with the user in mind. The concept of this app is to
+                            create an
+                            interactive platform that allows the user to plan their travels while keeping their budget
+                            in mind.
+                            Voyager's concept is to allow users to travel anywhere and everywhere. With that in mind,
+                            the logo was
+                            made so that it consists of two very drastic sceneries: a mountain and a a cityscape.
+                        </p>
 
+                    </div>
+                </div>
+                <div class="project-info-2">
+                    <p>Adobe Illustrator was used to created the logo and Adobe XD was used to create the wireframes. I
+                        choose to use bright colors when designing this app because I wanted to focus on setting the
+                        mood and
+                        making users want to travel. Headings are bolded and more structured to catch the user's
+                        attention, and
+                        a more rounded, playful typeface was used to capture playfulness and friendliness.
+                    </p>
+                    <img src="img/voyager-attractions1.png" alt="Voyager App Screen">
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="container">
             <p>Yvette Le Designs &copy; 2022</p>
@@ -302,31 +176,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script>
-        var $grid = $('.grid').isotope({
-
-            itemselector: '.grid-item',
-            layoutMode: 'masonry'
-            // percentPosition: true
-            // masonry: {
-            //     // use element for option
-            //     columnWidth: '.grid-sizer'
-            // }
-
-        });
-
-        $('.filter-buttons').on('click', 'button', function () {
-
-            var filterValue = $(this).attr('data-filter');
-            $grid.isotope({
-                filter: filterValue
-            });
-
-        });
-
-    </script>
-
 </body>
 
 </html>
