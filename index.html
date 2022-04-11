@@ -139,10 +139,10 @@
         <section class="banner">
             <div class="container intro">
                 <h2>Hello. I'm Yvette, a designer specializing in UX/UI and graphics.</h2>
-                <a href="#">About Me</a>
+                <a href="#work">View My Work</a>
             </div>
         </section>
-        <section  id="about" class="about">
+        <section id="about" class="about">
             <div class="container">
                 <div class="profile-info">
                     <img src="img/yvette-profile.jpg" alt="Photo of Yvette">
@@ -211,7 +211,8 @@
                     </div>
                     <div class="grid-item web">
                         <h4>Rock Auto Shopping Cart</h4>
-                        <a href="rock-auto.html"><img src="img/gallery-shopping-cart.jpg" alt="Rock Auto Shopping Cart Mockup"></a>
+                        <a href="rock-auto.html"><img src="img/gallery-shopping-cart.jpg"
+                                alt="Rock Auto Shopping Cart Mockup"></a>
                     </div>
                     <div class="grid-item graphics">
                         <h4>Voyager Branding</h4>
@@ -219,12 +220,13 @@
                     </div>
                     <div class="grid-item graphics">
                         <h4>The Aesthetic Nurse Logo</h4>
-                        <a href="aesthetic-nurse.html"><img src="img/an-business-card.jpg" alt="Aesthetic Nurse Logo Mockup"></a>
-                    </div>  
+                        <a href="aesthetic-nurse.html"><img src="img/an-business-card.jpg"
+                                alt="Aesthetic Nurse Logo Mockup"></a>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="contact"  class="contact">
+        <section id="contact" class="contact">
             <h3>Let's Talk</h3>
             <div class="container">
                 <p>If you have any questions or would like more information on my work, get in contact with me!</p>
@@ -302,18 +304,18 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script>
+
         var $grid = $('.grid').isotope({
 
             itemselector: '.grid-item',
             layoutMode: 'masonry'
-            // percentPosition: true
-            // masonry: {
-            //     // use element for option
-            //     columnWidth: '.grid-sizer'
-            // }
+        });
 
+        $grid.imagesLoaded().progress(function () {
+            $grid.isotope('layout');
         });
 
         $('.filter-buttons').on('click', 'button', function () {
